@@ -1,0 +1,5 @@
+str=input("enter the string:")
+remove_word=input("enter the word to be removed:")
+new_str=str.replace(remove_word,"")
+new_str=' '.join(new_str.split())
+print("after removing the word the string is",new_str)
